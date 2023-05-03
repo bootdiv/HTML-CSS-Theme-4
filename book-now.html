@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Book Now</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Mobile Menu -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="navbar">
+        <div class="offcanvas-header">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="" class="img-fluid">
+            </a>
+            <button type="button" class="close" data-bs-dismiss="offcanvas">
+                <img src="images/icon/menu-close.png" alt="" class="icon">
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav menu-mob">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#benefit">Benefit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#feature">Feature</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#service">Service Pack</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#faq">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn-sp btn-bd" href="#"><img src="images/icon/Call2.png" alt=""> Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn-sp" href="book-now.html">Book Now</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-9 col-lg-2">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" class="img-fluid"></a>
+                </div>
+                <div class="col-3 col-lg-10 text-end">
+                    <ul class="nav menu-sp justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#benefit">Benefit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#feature">Feature</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#service">Service Pack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn-sp btn-bd" href="#"><img src="images/icon/Call2.png" alt=""> Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn-sp" href="book-now.html">Book Now</a>
+                        </li>
+                    </ul>
+                    <button class="btn-bar" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar">
+                        <img src="images/icon/menu-bar.png" alt="" class="icon" data-bs-toggle="offcanvas" data-bs-target="#navbar">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="wrapper" class="cn-pd2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-8">
+                    <div class="about-text pb-3">
+                        <h2>Book Now</h2>
+                        <p>Make an Appointment and Get a Special Offer For You Now!</p>
+                    </div>
+                    <form action="thank-you.html" method="post" id="book_form">
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-6">
+                                <div class="form-group">
+                                    <label for="fname">First Name *</label>
+                                    <input name="fname" id="fname" type="text" class="form-sp" placeholder="Input First Name" data-msg-required="First name is required." required>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-6">
+                                <div class="form-group">
+                                    <label for="lname">Last Name *</label>
+                                    <input name="lname" id="lname" type="text" class="form-sp" placeholder="Input Last Name" data-msg-required="Last name is required." required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-6">
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input name="email" id="email" type="email" class="form-sp" placeholder="Input Email" data-msg-required="Email is required." required>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-6">
+                                <div class="form-group">
+                                    <label for="phone">Phone Number *</label>
+                                    <input name="phone" id="phone" type="tel" class="form-sp" placeholder="Input Phone Number" data-msg-required="Phone number is required." required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-6">
+                                <div class="form-group">
+                                    <span class="icon"><img src="images/icon/Calendar.png" alt="" class="img-fluid"></span>
+                                    <label for="date">Date For Your Appointment *</label>
+                                    <input name="date" id="date" type="date" class="form-sp" placeholder="dd/mm/yy" data-msg-required="Appointment date is required." required>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-6">
+                                <div class="form-group">
+                                    <span class="icon"><img src="images/icon/Time.png" alt="" class="img-fluid"></span>
+                                    <label for="time">Time For Your Appointment *</label>
+                                    <input name="time" id="time" type="time" class="form-sp" placeholder="hh/mm" data-msg-required="Appointment time is required." required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">What Service Are You Interested In? *</label>
+                            <select name="service" id="service" class="form-select form-sp">
+                                <option value="Park Ave Signature" selected>Park Ave Signature Facial</option>
+                                <option value="Service 2">Service 2</option>
+                                <option value="Service 3">Service 3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Would You Like Us To Call You To Schedule An Appointment? *</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="like" id="radio1" checked>
+                                <label class="form-check-label" for="radio1">
+                                    Yes
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="like" id="radio2">
+                                <label class="form-check-label" for="radio2">
+                                    No
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="like" id="radio3">
+                                <label class="form-check-label" for="radio3">
+                                    Text is better
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="like" id="radio4">
+                                <label class="form-check-label" for="radio4">
+                                    Email is better
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Enter Your Location (For Our Mobile Med SPA Service)*</label>
+                            <input name="location" id="location" type="text" class="form-sp" placeholder="Input Location" data-msg-required="Location name is required." required>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn-sp btn-d" id="submit" value="Submit">
+                        </div>
+                        <div class="text-success msg-success d-none" role="alert">
+                            <p>The message was sent successfully.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="map-info">
+                        <h2>Roswell Village Shopping Center</h2>
+                        <p class="mb-4">633 Holcomb Bridge Rd. Suite A Roswell, Ga 30076</p>
+
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><img src="images/icon/Call3.png" alt=""> (770) 299-1493</li>
+                            <li><img src="images/icon/Message.png" alt=""> customercare@parkavecosmetic.com</li>
+                        </ul>
+
+                        <h4>Schedule</h4>
+                        <ul class="mb-0">
+                            <li>Tuesday - Friday : 10:00AM - 6:00PM</li>
+                            <li>Saturday : 9:00AM - 4:00PM</li>
+                            <li>Sunday & Monday : Appointment Only</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <div class="map-marker">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.3997372173085!2d-84.34649308561626!3d34.03361582616058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f574afe58c8fbf%3A0x4be56c5cf9c14c61!2s633%20Holcomb%20Bridge%20Rd%2C%20Roswell%2C%20GA%2030076%2C%20USA!5e0!3m2!1sen!2sbd!4v1646972301773!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <h2>Get Special Offer For You Now!</h2>
+                </div>
+                <div class="col-md-12 col-lg-6 text-lg-end">
+                    <a href="#" class="btn-sp btn-bd2"><img src="images/icon/Call3.png" alt=""> Contact Us</a>
+                    <a href="book-now.html" class="btn-sp btn-cl">Book Now</a>
+                </div>
+                <div class="col-sm-12">
+                    <span class="ft-bar"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-6 order-2 order-lg-1">
+                    <img src="images/logo-white.png" alt="" class="img-fluid">
+                    <p>&copy; 2021 PARK AVE COSMETIC CENTER. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-12 col-lg-6 text-lg-end order-first order-lg-2">
+                    <h3>Follow Us</h3>
+                    <ul class="social">
+                        <li><a href="#"><img src="images/icon/Instagram2.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/icon/Facebook2.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
